@@ -1,0 +1,174 @@
+/* Global */
+
+html {font-family: Arial, Helvetica, sans-serif; 
+  font-size: 1.2rem;
+  color: #ECEDF0;
+}
+
+.sezioneSpecial{
+ text-align: center; /*toglibile per renderlo più smooth*/
+}
+.sezioneSpecial h2{
+  display: inline-block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-right: 1.5em;
+  font-size: 1.4em;
+  font-weight: 500;
+  color: black;
+}
+.sezioneSpecial a{
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #114E59;
+}
+.sezioneSpecial img{
+  width: 100%;
+}
+
+.bordo {
+  border-top: 1px solid black;  
+}
+
+
+/* BODY */
+main {
+  padding: 1.5em 1.5em 0em 1.5em;
+  background-color: #E9EDEE;
+}
+
+
+/*HEADER */
+header{
+  background-color: #222F3F;
+}
+
+header img{
+  width: 8%;
+  margin: 0.8em;
+  margin-left: 1.5em;
+}
+
+header nav {
+  background-color: #364759;
+}
+header nav a{
+  color: #ECEDF0;
+  text-decoration: none;
+}
+
+header nav ul {
+  display:inline-block;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 1.5em;
+}
+header nav ul li {
+  float: left;
+  padding: 0.5em 0.6em 0.5em 0.5em;
+}
+
+/* SECTION GIFT CARDS */
+
+#giftSection {
+  width: 100%;
+}
+
+.testataArancione{
+  background-color: #F56600;
+  text-align: center;
+  padding: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+#giftSection div:nth-of-type(2){
+  background-image: url(../images/bg-image.png);
+  background-size: contain;
+  background-size: 90%;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  font-weight: 600;
+}
+
+#giftSection h1{
+  font-size: 2.2em;
+  margin-bottom: 0.8em;
+}
+
+#giftSection p {
+  font-size: 1.2em;
+}
+
+/*Section Perfect Gift*/
+
+#gift{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  background-color: white;
+}
+
+.findText{
+  padding-left: 1.7em;
+}
+
+.findText h2{
+  display: inline-block;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-right: 1.5em;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: black;
+}
+.findText a{
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+#sezioneImg{
+  height: auto;
+  margin-left: 1.7em;
+
+}
+#sezioneImg div {
+  display:inline-block;
+  overflow: hidden;
+  width:21vw;  
+  margin-right: 2.5em;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
+}
+#sezioneImg div img{
+  float: left;
+  width:  100%;
+  height: 25em;
+  object-fit: cover;
+}
+
+
+
+/*FOOTER*/
+footer {
+  background-color: #222F3F;
+  text-align: center;
+
+}
+footer img{
+  width: 15%;
+  padding: 3em;
+  
+}
+footer nav{
+  background-color: #364759;
+  padding: 1em;
+}
+
+footer nav a{
+  color: white;
+  font-size: 1.2em;
+}
